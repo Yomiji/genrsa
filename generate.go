@@ -4,8 +4,6 @@ import (
 	"crypto/rsa"
 	"crypto/rand"
 	"fmt"
-	"time"
-	"math/big"
 	"os"
 	"encoding/pem"
 	"crypto/x509"
@@ -15,24 +13,22 @@ import (
 const blockType = "RSA PRIVATE KEY"
 const publicBlockType = "RSA PUBLIC KEY"
 
-func Key(byteCount int) (*rsa.PrivateKey, *rsa.PublicKey) {
-	fakewait(399)
+func MakeKeys(byteCount int) (*rsa.PrivateKey, *rsa.PublicKey) {
 	privateKey, err := rsa.GenerateKey(rand.Reader, byteCount)
 	checkErr(err)
-	fakewait(399)
 	publicKey := &privateKey.PublicKey
 
 	return privateKey, publicKey
 }
 
 func MakePrivatePublicFilePair(privateFile *os.File, publicFile *os.File, byteCount int) {
-	private,public := Key(byteCount)
+	private,public := MakeKeys(byteCount)
 	writePrivate(privateFile, private)
 	writePublic(publicFile, public)
 }
 
 func MakePrivateFile(file *os.File, byteCount int) {
-	private,_ := Key(byteCount)
+	private,_ := MakeKeys(byteCount)
 	writePrivate(file, private)
 }
 
@@ -54,7 +50,7 @@ func writePublic(file *os.File, publicKey *rsa.PublicKey) {
 	file.Write(pemdata)
 }
 
-func PrivateKeysFromFile(file *os.File) []*rsa.PrivateKey {
+func GetPrivateKeysFromFile(file *os.File) []*rsa.PrivateKey {
 	privateBytes,err := ioutil.ReadAll(file)
 	checkErr(err)
 	var keys []*rsa.PrivateKey = nil
@@ -69,7 +65,7 @@ func PrivateKeysFromFile(file *os.File) []*rsa.PrivateKey {
 	return keys
 }
 
-func PublicKeysFromFile(file *os.File) []*rsa.PublicKey {
+func GetPublicKeysFromFile(file *os.File) []*rsa.PublicKey {
 	publicBytes,err := ioutil.ReadAll(file)
 	checkErr(err)
 	var keys []*rsa.PublicKey = nil
@@ -83,8 +79,8 @@ func PublicKeysFromFile(file *os.File) []*rsa.PublicKey {
 	return keys
 }
 
-func PublicKeysFromPrivateFiles(file *os.File) []*rsa.PublicKey {
-	privateKeys := PrivateKeysFromFile(file)
+func GetPublicKeysFromPrivateFiles(file *os.File) []*rsa.PublicKey {
+	privateKeys := GetPrivateKeysFromFile(file)
 	var publicKeys []*rsa.PublicKey = nil
 	for _,key := range privateKeys {
 		publicKeys = append(publicKeys, &rsa.PublicKey{N: key.PublicKey.N, E: key.PublicKey.E})
@@ -97,10 +93,4 @@ func checkErr(err error) {
 		fmt.Println(err.Error())
 		panic(err)
 	}
-}
-
-func fakewait(fakemills int64) {
-	bigNum, err := rand.Int(rand.Reader, big.NewInt(fakemills))
-	checkErr(err)
-	<-time.After(time.Duration(bigNum.Int64()) * time.Millisecond)
 }

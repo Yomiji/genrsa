@@ -19,7 +19,7 @@ func TestKey(t *testing.T) {
 			t.Fatalf("Unexpected error: %s", err)
 		}
 	}()
-	privateKey, publicKey := genrsa.Key(testByteCount)
+	privateKey, publicKey := genrsa.MakeKeys(testByteCount)
 	if privateKey == nil || publicKey == nil {
 		t.Fatalf("Unexpected key nil exception private:%v, public:%v", privateKey, publicKey)
 	}
@@ -62,7 +62,7 @@ func TestPrivateKeysFromFile(t *testing.T) {
 	err = file.Close()
 	checkErr(err, t)
 	file,err = os.Open("testPriv")
-	pkeys := genrsa.PrivateKeysFromFile(file)
+	pkeys := genrsa.GetPrivateKeysFromFile(file)
 	if len(pkeys) < 2 {
 		t.Fatal("Failed to read private keys from file")
 	}
@@ -82,7 +82,7 @@ func TestPublicKeysFromPrivateFiles(t *testing.T) {
 	err = file.Close()
 	checkErr(err, t)
 	file,err = os.Open("testPriv")
-	pkeys := genrsa.PublicKeysFromPrivateFiles(file)
+	pkeys := genrsa.GetPublicKeysFromPrivateFiles(file)
 	if len(pkeys) < 2 {
 		t.Fatal("Failed to read public keys from file")
 	}
@@ -143,7 +143,7 @@ func TestPublicKeysFromFile(t *testing.T) {
 	err = publicFile.Close()
 	checkErr(err, t)
 	publicFile,err = os.Open("testPub")
-	pkeys := genrsa.PublicKeysFromFile(publicFile)
+	pkeys := genrsa.GetPublicKeysFromFile(publicFile)
 	if len(pkeys) < 2 {
 		t.Fatal("Failed to read private keys from file")
 	}
