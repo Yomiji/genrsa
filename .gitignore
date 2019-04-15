@@ -106,3 +106,5 @@ fabric.properties
 .idea/markdown-navigator.xml
 /vendor/
 
+*/testPriv
+*/testPub
