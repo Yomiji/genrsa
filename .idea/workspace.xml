@@ -1,199 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ac11a23-d0e9-4cce-a3f1-1de2363c7b23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="cdfa9aa6-6850-445f-b0e3-7e53ff9782fc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/generateRSAKeys$go_test_genrsa.out" NAME="go test genrsa Coverage Results" MODIFIED="1555195368892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/generateRSAKeys$go_test_github_com_Yomiji_genrsa_test.out" NAME="go test github.com/Yomiji/genrsa/test Coverage Results" MODIFIED="1555191946752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/genrsa$genrsa_test_go.out" NAME="genrsa_test.go Coverage Results" MODIFIED="1555341366671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="15034792">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="go" value="7" />
-          <entry key="testPriv" value="2" />
-          <entry key="testPub" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Git file" value="1" />
-          <entry key="Go" value="7" />
-          <entry key="PLAIN_TEXT" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="go" value="5551" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Go" value="5551" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.go.postfix.template.usages.trigger">
-        <counts>
-          <entry key=".append" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="714445618">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="go" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Git file" value="1" />
-          <entry key="Go" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="4" />
-          <entry key="go" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Git file" value="4" />
-          <entry key="Go" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/generate.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Go File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>keys</find>
-      <find>0655</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>privPerm</replace>
-      <replace>pubPerm</replace>
-    </replaceStrings>
-  </component>
-  <component name="GOROOT" path="C:\Go" />
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GoDepProject">
-    <integration-enabled>true</integration-enabled>
-    <exec-path>C:\Users\Yomiji.L\OneDrive\Go Projects\bin\dep.exe</exec-path>
-  </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/generate.go" />
-        <option value="$PROJECT_DIR$/test/genrsa_test.go" />
-        <option value="$PROJECT_DIR$/generate.go" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/genrsa_tests/genrsa_test.go" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="width" value="1328" />
-    <option name="height" value="836" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="genrsa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="genrsa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="genrsa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="genrsa" type="462c0819:PsiDirectoryNode" />
-              <item name="genrsa_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
-    <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goprocrypt" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,204 +31,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.genrsa_test.go">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/" />
-      <package value="github.com/Yomiji/generateRSAKeys" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMakePrivatePublicFilePair in github.com/Yomiji/genrsa/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Yomiji/genrsa/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMakePrivatePublicFilePair$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestPublicKeysFromFile in github.com/Yomiji/genrsa/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Yomiji/genrsa/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestPublicKeysFromFile$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="github.com/Yomiji/generateRSAKeys" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="genrsa_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$/genrsa_tests" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <package value="github.com/Yomiji/generateRSAKeys" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/genrsa_tests/genrsa_test.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test genrsa" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="github.com/Yomiji/generateRSAKeys" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/Yomiji/genrsa/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="genrsa" />
-      <working_directory value="$PROJECT_DIR$/test" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/Yomiji/genrsa/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Go Test.TestPublicKeysFromFile in github.com/Yomiji/genrsa/test" />
-      <item itemvalue="Go Test.go test github.com/Yomiji/genrsa/test" />
-      <item itemvalue="Go Test.TestMakePrivatePublicFilePair in github.com/Yomiji/genrsa/test" />
-      <item itemvalue="Go Test.go test genrsa" />
-      <item itemvalue="Go Test.genrsa_test.go" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Test.genrsa_test.go" />
-        <item itemvalue="Go Test.go test genrsa" />
-        <item itemvalue="Go Test.TestPublicKeysFromFile in github.com/Yomiji/genrsa/test" />
-        <item itemvalue="Go Test.TestMakePrivatePublicFilePair in github.com/Yomiji/genrsa/test" />
-        <item itemvalue="Go Test.go test github.com/Yomiji/genrsa/test" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestPublicKeysFromFile_in_github_com_Yomiji_genrsa_test - 2019.04.13 at 17h 43m 55s.xml">
-      <configuration name="TestPublicKeysFromFile in github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPublicKeysFromFile_in_github_com_Yomiji_genrsa_test - 2019.04.13 at 17h 45m 19s.xml">
-      <configuration name="TestPublicKeysFromFile in github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_Yomiji_genrsa_test - 2019.04.13 at 17h 45m 33s.xml">
-      <configuration name="go test github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_Yomiji_genrsa_test - 2019.04.13 at 17h 45m 51s.xml">
-      <configuration name="go test github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMakePrivatePublicFilePair_in_github_com_Yomiji_genrsa_test - 2019.04.13 at 18h 35m 01s.xml">
-      <configuration name="TestMakePrivatePublicFilePair in github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMakePrivatePublicFilePair_in_github_com_Yomiji_genrsa_test - 2019.04.13 at 18h 36m 39s.xml">
-      <configuration name="TestMakePrivatePublicFilePair in github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestMakePrivatePublicFilePair_in_github_com_Yomiji_genrsa_test - 2019.04.13 at 18h 37m 03s.xml">
-      <configuration name="TestMakePrivatePublicFilePair in github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestPublicKeysFromFile_in_github_com_Yomiji_genrsa_test - 2019.04.13 at 18h 42m 09s.xml">
-      <configuration name="TestPublicKeysFromFile in github.com/Yomiji/genrsa/test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_genrsa - 2019.04.13 at 18h 42m 56s.xml">
-      <configuration name="go test genrsa" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="genrsa_test_go - 2019.04.15 at 11h 16m 11s.xml">
-      <configuration name="genrsa_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08314437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26790452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20368364" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49962208" visible="true" weight="0.40450928" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49962208" visible="true" weight="0.40303358" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037795" side_tool="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.32955405" />
+      <window_info anchor="right" id="Cargo" order="5" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.go" />
-    <entry file="file://C:/Go/src/crypto/crypto.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Go/src/crypto/rsa/rsa.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testPriv" />
-    <entry file="file://$PROJECT_DIR$/test/testPub" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genrsa_tests/genrsa_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#21#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

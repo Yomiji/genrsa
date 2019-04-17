@@ -98,13 +98,8 @@ crashlytics-build.properties
 fabric.properties
 
 # Editor-based Rest Client
-.idea/httpRequests
-.idea/codeStyles/Project.xml
-.idea/inspectionProfiles/
-.idea/markdown-history.xml
-.idea/codeStyles/codeStyleConfig.xml
-.idea/markdown-navigator.xml
+/.idea
 /vendor/
-
-*/testPriv
-*/testPub
+/Gopkg.lock
+/genrsa_tests/testPriv
+/genrsa_tests/testPub
